@@ -1,0 +1,55 @@
+*{
+  font-family: 'Vollkorn', serif;
+}
+.carre {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+img{
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.AccueilPhoto{
+  display:flex;
+  height:520px;
+  justify-content: center;
+  margin:20px;
+  padding: 10px;
+}
+
+.Hoxton1, .Hoxton2, .Hoxton3{
+  margin:20px;
+  padding:10px;
+}
+
+h2{
+  text-align: center;
+  background-color: #d3d0cb;
+  margin:20px;
+  padding:20px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+#header1{
+  background-position: top;
+  position:absolute;
+  max-width: 663px;
+  width:1630px;
+  height:1184px;
+  margin: O auto;
+}
+
+#header1 img{
+  width:10%;
+  height:10%;
+}
