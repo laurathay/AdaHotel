@@ -1,7 +1,58 @@
-*{
-  font-family: 'Vollkorn', serif;
+.banner{
+  width:100%;
+  display:block;
 }
-.carre {
+
+.banner .banner-image{
+  width:100%;
+}
+
+.nav{
+  background-color:#ffffff;
+  color: #000000;
+  list-style: none;
+  padding: 20px 0 20px 0;
+}
+
+nav ul{
+  justify-content: center;
+}
+
+nav li{
+  display: inline-block;
+  justify-content: center;
+  padding: 25px 25px 25px 100px;
+  font-size: 15px;
+}
+
+nav li a{
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+h1{
+  text-align: center;
+  padding: 25px 25px 25px 25px;
+  font-size: 40px;
+}
+.accroche{
+  text-align: center;
+  background-color: #d3d0cb;
+  margin:20px 0px 20px 0;
+  padding:20px 0px 20px 0;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 20px;
+  width:100%;
+  font-style:italic;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family:'Vollkorn', serif;
+}
+/* .logo {
     width: 100px;
     height: 100px;
     position: relative;
@@ -12,44 +63,95 @@
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-img{
-  display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;
-}
+*/
 
 .AccueilPhoto{
-  display:flex;
-  height:520px;
+/*display:flex;
+display:inline;*/
+  display:inline-block;
+  /*height:520px;*/
+  height:50%;
+  width:auto;
   justify-content: center;
   margin:20px;
   padding: 10px;
 }
 
 .Hoxton1, .Hoxton2, .Hoxton3{
+  display:inline-block;
+  height: 50px;
+  width: 50px;
   margin:20px;
   padding:10px;
 }
 
-h2{
+
+.AccueilPhoto .Hoxton1, .Hoxton2, .Hoxton3{
+display:inline;
+margin: 0 auto;
+height: 100%;
+width: auto;
+}
+
+/*
+.AccueilPhoto .Hoxton1, .Hoxton2, .Hoxton3{
+    display:inline block;
+}
+*/
+
+.presentation1{
   text-align: center;
-  background-color: #d3d0cb;
-  margin:20px;
-  padding:20px;
-  font-family: 'Source Serif Pro', serif;
+  font-size: 25px;
+  font-style:italic;
+  width: 700px;
+  margin:50px 50px 50px 250px;
 }
 
-#header1{
-  background-position: top;
-  position:absolute;
-  max-width: 663px;
-  width:1630px;
-  height:1184px;
-  margin: O auto;
+.presentation2{
+  text-align: left;
+  margin:20px 800px 20px 50px;
+  box-sizing: border-box;
+
 }
 
-#header1 img{
-  width:10%;
-  height:10%;
+.presentation3{
+  text-align: right;
+  margin: 20px 50px 20px 800px;
+  box-sizing: border-box;
+
 }
+
+.presentation4{
+  text-align: left;
+  margin:20px 800px 20px 50px;
+  box-sizing: border-box;
+}
+
+.agenda{
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer{ /*refaire les logos avec lien mort*/
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+  text-decoration: : none;
+}
+
+ul li {
+  list-style: none;
+  display:inline;
+  justify-content: space-around;
+}
+
+/*
+.list-inline {
+	color: white;
+	display: inline;
+	padding: 0 10px;
+
+}
+*/
+
+/* CSS de la page chambres */
