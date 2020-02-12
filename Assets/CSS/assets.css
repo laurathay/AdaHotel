@@ -69,9 +69,6 @@ body{
 /*display:flex;
 display:inline;*/
   display:inline-block;
-  /*height:520px;*/
-  height:50%;
-  width:auto;
   justify-content: center;
   margin:20px;
   padding: 10px;
@@ -79,8 +76,6 @@ display:inline;*/
 
 .Hoxton1, .Hoxton2, .Hoxton3{
   display:inline-block;
-  height: 50px;
-  width: 50px;
   margin:20px;
   padding:10px;
 }
@@ -132,7 +127,7 @@ width: auto;
   font-size: 20px;
 }
 
-.footer{ /*refaire les logos avec lien mort*/
+.footer{
 	background-color: white;
 	padding: 20px;
 	text-align: center;
@@ -145,13 +140,68 @@ ul li {
   justify-content: space-around;
 }
 
-/*
-.list-inline {
-	color: white;
-	display: inline;
-	padding: 0 10px;
-
-}
-*/
 
 /* CSS de la page chambres */
+
+h4{
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline overline;
+  text-transform: uppercase;
+}
+
+.shoebox .shoeboxdescription, .shoeboximages{
+  flex-wrap: wrap;
+}
+
+.shoeboxdescription, .cosydescription, .roomydescription, .biggydescription{
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:100px 20px 20px 50px;
+  box-sizing: border-box;
+}
+
+.shoeboximages, .cosyimages, .roomyimages, .biggyimages{
+  display: inline-block;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin: 20px 20px 20px 50px;
+}
+
+
+.typesdechambres .shoebox, .cosy, .roomy, .biggy{
+
+}
+
+/* CSS de la page reservation */
+.agenda{
+  background-color:#d3d0cb;
+  text-align: center;
+  margin:20px 0px 20px 0;
+  padding:20px 0px 20px 0;
+  font-size: 20px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.reservation{
+  text-align: center;
+  margin:20px 0px 20px 0;
+  padding:20px 0px 20px 0;
+  font-size: 20px;
+}
+
+/* CSS de la page de Services*/
+
+.piscine{
+  margin:20px 20px 20px 250px;
+  width:100%;
+  height:100%;
+}
+
+.soins{
+
+}
+
+.soins2{
+
+}
