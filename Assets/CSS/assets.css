@@ -109,6 +109,26 @@ width: auto;
 
 }
 
+/*les slides de comment*/
+.carousel-inner{
+  width:440px;
+  margin:20px 50px 20px 800px;
+  box-sizing: border-box;
+}
+
+.carousel-inner2{
+  width:240px;
+  margin:20px 800px 20px 50px;
+  box-sizing: border-box;
+}
+
+.commentintro > .presentation2 .carousel-inner{
+  display: inline-block;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index:2;
+}
+
 .presentation3{
   text-align: right;
   margin: 20px 50px 20px 800px;
