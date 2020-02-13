@@ -219,8 +219,33 @@ h4{
 
 /* CSS de la page quartier */
 
+.menuquartier{
+  text-align: center;
+  margin:20px 40px 20px 40px;
+  padding: 20px 40px 20px 40px;
+}
+
+#trait_dessus {
+  border: 1px ;
+  width : 50%;
+  margin:auto;
+}
+
 h5{
   color: #87764e;
   font-size: 36px;
   font-family: baueur-grotesk-ot; /*a rajouter plus tard*/
+  text-align: center;
+}
+
+.imagesquartiers{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.descriptionsquartiers{
+  margin:20px 40px 20px 40px;
+  padding: 20px 40px 20px 40px;
 }
