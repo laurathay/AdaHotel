@@ -249,3 +249,23 @@ h5{
   margin:20px 40px 20px 40px;
   padding: 20px 40px 20px 40px;
 }
+
+/* CSS de la page contact */
+.contact, .formulaire{
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff5f1;
+  color:#000000;
+}
+
+.telephone, .mail, .acces{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  padding: 10px 20px 10px 20px;
+}
+
+.demande{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+}
