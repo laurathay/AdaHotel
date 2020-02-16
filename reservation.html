@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<!-- les 3 en dessous rajout pour le bootstrap Agenda-->
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<script src="https://kit.fontawesome.com/682d71be2a.js" crossorigin="anonymous"></script>
+			<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+			<!--bootstrap agenda-->
+			<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
 			<link rel="stylesheet" href="assets/css/assets.css">
-			<link href="https://fonts.googleapis.com/css?family=PT+Serif|Permanent+Marker|Roboto|Vollkorn&display=swap&subset=cyrillic,cyrillic-ext,greek,latin-ext,vietnamese" rel="stylesheet">
 			<title> ada hotel</title>
 		</head>
 		<body>
@@ -28,19 +35,76 @@
 			</div>
 
 			<div class="agenda">
-				Agenda en ligne pour réserver <br/><br/>
+				Dépose tes bagages et commence à explorer <br/>
 			</div>
 
-			<div class= "reservation">
-				<form>
-					<label for="Paris"></label><input type="text" name= "city"value="Paris" id="Paris">
-					<label for="Arrivé"></label><input type="text" name= "date" value="Arrivé?" id="Arrivé">
-					<label for="Depart"></label><input type="text" name= "date" value="Départ?" id="Depart">
-					<label for="1 chambre/ 2adultes"></label><input type="text" name= "number" value="1 chambre/ 2 adultes" id="1 chambre/ 2 adultes">
-					<label for="Type de chambre"></label><input type="text" name= "number" value="Type de chambre" id="Type de chambre">
-					<label for="Type de chambre"></label><select class= "type de chambre" name="type de chambre"><option value="Shoebox"> ShoeBox </option><option value="Cosy"> Cosy </option><option value="Roomy"> Roomy </option><option value="Biggy"> Biggy </option>
-					<input type="submit" value="réserver">
-				</form><br/><br>
+			<div id="booking" class="section">
+				<div class="section-center">
+					<div class="container">
+						<div class="row">
+							<div class="booking-form">
+								<div class="booking-bg">
+									<div class="form-header">
+										<h2>Make your reservation</h2>
+										<p>Flexy Time <br/>à The Ada <br/>Check-in et check-out quand vous voulez. Gratuitement. <br/> Fini les valises laissées à la réception, les heures à attendre avant de pouvoir se doucher ou les grasses matinées interrompues car il faut quitter la chambre.</p>
+									</div>
+								</div>
+								<form>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<span class="form-label">Check In</span>
+												<input class="form-control" type="date" required>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<span class="form-label">Check Out</span>
+												<input class="form-control" type="date" required>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<span class="form-label">Adults</span>
+												<select class="form-control">
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+												</select>
+												<span class="select-arrow"></span>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<span class="form-label">Children</span>
+												<select class="form-control">
+													<option>0</option>
+													<option>1</option>
+													<option>2</option>
+												</select>
+												<span class="select-arrow"></span>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<span class="form-label">Room Type</span>
+										<select class="form-control" required>
+											<option value="" selected hidden>Select room type</option>
+											<option>Private Room (1 to 2 People)</option>
+											<option>Family Room (1 to 4 People)</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+									<div class="form-btn">
+										<button class="submit-btn">Check availability</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div class="footer" id="footer">
