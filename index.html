@@ -21,6 +21,15 @@
 			 <meta name="viewport" content="width=device-width, initial-scale=1">
 		</head>
 		<body>
+
+			<div id="cookies-eu-banner" style="display: none;"> <!--3eme essaie-->
+        By continuing your visit to this site, you accept the use of cookies by Google Analytics to make visits statistics.
+        <a href="./read-more.html" id="cookies-eu-more">Read more</a>
+        <button id="cookies-eu-reject">Reject</button>
+        <button id="cookies-eu-accept">Accept</button>
+    </div>
+
+
 			<div class="banner">
 				<img class="banner-image" src="Images/banner.png" alt="header"></div>
 			</div>
@@ -228,5 +237,42 @@
 					<p> Site web créer par @ThayThay: contact@adahotel.com </p>
 			</div>
 
+		<!--<script type="text/javascript" id="cookieinfo" 1er essaie
+			src="//cookieinfoscript.com/js/cookieinfo.min.js">
+		</script>-->
+
+		<!--
+		<script type="text/javascript" id="cookieinfo"
+			src="//cookieinfoscript.com/js/cookieinfo.min.js"
+			data-bg="#645862"
+			data-fg="#FFFFFF"
+			data-link="#F1D600"
+			data-cookie="CookieInfoScript"
+			data-text-align="left"
+		       data-close-text="Got it!">
+		</script> 2eme essaie -->
+
+		<!--<script src="bower_components/cookies-eu-banner/dist/cookies-eu-banner.min.js"></script> 3eme essaie-->
+
+		<div class="container-fluid"> <!-- ne marche que si on a le boostrap déjà-->
+    	<section class="window">
+      	<p> Cliquez sur "J'accepte" pour accepter l'utilisation de cookies sur ce site</p>
+				<!--le premier que j'ai fait pour mettre les couleurs
+      	<button type="submit" class="btn btn-info">J'accepte</button>-->
+				<!-- le deuxieme pour disparaitre-->
+				<button type="button" onclick="document.querySelector('.window').remove()" class="btn btn-light">Accepter</button>
+				<button type="submit" class="btn btn-light">Je refuse</button> <!-- ajout de bouton -->
+				<button type="button" onclick="Alert('Êtes-vous sûre?')"> LOL </button> <!-- faire une alerte-->
+
+
+    	</section>
+    </div>
 		</body>
 	</html>
+
+<!-- celui ci c'est pour que la banner disparait une fois qu'on accepte-->
+	<button type="button" onclick="document.querySelector('.window').remove()" class="btn btn-light">J'accepte contre mon gré</button>
+
+<!-- pour faire en sorte d'ajouter un button refuser -->
+<button type="submit" class="btn btn-info">J'accepte</button>
+<button type="submit" class="btn btn-light">Je refuse</button>

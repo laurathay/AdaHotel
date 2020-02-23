@@ -1,3 +1,7 @@
+body{
+  margin-left:-10%;
+}
+
 .banner{
   width:100%;
   display:block;
@@ -509,4 +513,55 @@ h5{
   display:flex;
   justify-content: center;
   margin:auto;
+}
+/* pour faire une banner de cookies 1er essaie
+#cookie-law {
+    max-width:940px;
+    background:#EEEADD;
+    margin:10px auto 0;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+}
+
+#cookie-law p {
+    padding:10px;
+    font-size:1.2em;
+    font-weight:bold;
+    text-align:center;
+    color:#682008;
+    margin:0;
+}*/
+
+/* pour faire des cookies 2eme essaies
+#cookies-eu-banner{
+  position: fixed;
+  margin: auto;
+  width: 100%;*/
+
+  .window /* bon code pour les cookies*/
+  {
+    display: flex;
+    text-align: center;
+    margin-top: auto;
+    justify-content: center;
+    background-color: #fff5f2;
+    bottom: 0;
+    position: fixed;
+    width: 95%;!important
+    height:10%;
+    color:pink;
+    border-radius:
+    /* pour occuper tout lespace de la boite du texte*/
+    flex-grow: 2; /* on le met pour le paragraphe texte et ca va de 1 à 3 selon la force*/
+  }
+
+.btn{
+  flex-grow: 0;
+}
+
+.p{
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
 }
